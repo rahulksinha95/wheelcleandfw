@@ -11,10 +11,10 @@ export default function Logo({
   return (
     <Link href="/" className="flex items-center gap-3">
       <Image
-        src="https://assets.zyrosite.com/2J82Qbf4wzjoIRnb/uyg6x5-gg9OA6LmQGBoP2f8.png"
+        src="https://i.postimg.cc/gk83S6Yw/IMG-1536.jpg"
         alt="WheelCleanDFW"
-        width={compact ? 32 : 48}
-        height={compact ? 32 : 48}
+        width={compact ? 60 : 200}
+        height="auto"
         className="object-contain"
       />
       <span
@@ -22,7 +22,7 @@ export default function Logo({
           compact ? "text-base" : "text-lg"
         } ${dark ? "text-white" : "text-ink"}`}
       >
-        WheelClean<span className="text-accent"> DFW</span>
+        WheelClean<span className="text-accent">DFW</span>
       </span>
     </Link>
   );
