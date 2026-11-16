@@ -137,10 +137,10 @@ export const INTENTS: Intent[] = [
     id: "pricing",
     patterns: /price|pricing|cost|how much|rate|charge|expensive|flat fee|\$/i,
     reply: {
-      text: `Flat, straightforward pricing — from $45! Here's the lineup:\n\n${TIERS.map((t) => {
+      text: `Flat, straightforward pricing — from $59! Here's the lineup:\n\n${TIERS.map((t) => {
         const old = t.oldPrice ? ` (was $${t.oldPrice})` : "";
         return `• ${t.name} — $${t.price}${old} · ${t.duration}`;
-      }).join("\n")}\n\nPlus add-ons: Oil Treatment +$5 and Cushion Cleaning +$25. Want me to start your booking?`,
+      }).join("\n")}\n\nPlus add-ons including Oil Treatment +$5 and Cushion Cleaning +$25. Want me to start your booking?`,
       actions: [
         { label: "Tell me about the Standard", kind: "ask", value: "What's in the Standard clean?" },
         SCHEDULE_ACTION,
