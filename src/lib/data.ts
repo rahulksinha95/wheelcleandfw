@@ -48,7 +48,7 @@ export const TIERS: Tier[] = [
     ],
   },
   {
-    id: "deluxe",
+    id: "standard",
     name: "The Standard",
     price: 69,
     oldPrice: 79,
