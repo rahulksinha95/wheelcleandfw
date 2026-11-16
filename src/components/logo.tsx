@@ -11,10 +11,10 @@ export default function Logo({
   return (
     <Link href="/" className="flex items-center gap-3">
       <Image
-        src="https://i.postimg.cc/gk83S6Yw/IMG-1536.jpg"
+        src="https://assets.zyrosite.com/2J82Qbf4wzjoIRnb/uyg6x5-gg9OA6LmQGBoP2f8.png"
         alt="WheelCleanDFW"
-        width={compact ? 60 : 200}
-        height={compact ? 60 : 48}
+        width={compact ? 32 : 48}
+        height={compact ? 32 : 48}
 				className="object-contain h-auto"
       />
       <span
