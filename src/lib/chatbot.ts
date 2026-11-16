@@ -45,7 +45,7 @@ export const INTENTS: Intent[] = [
     patterns:
       /^(hi|hiya|hello|hey|yo|howdy|good (morning|afternoon|evening)|sup|hola)\b/i,
     reply: {
-      text: "Howdy! 👋 I'm the WheelClean DFW assistant. I can help with pricing, service areas, how the cleaning works, or booking your appointment. What can I do for you?",
+      text: "Howdy! 👋 I'm the WheelCleanDFW assistant. I can help with pricing, service areas, how the cleaning works, or booking your appointment. What can I do for you?",
       actions: [
         { label: "See pricing", kind: "ask", value: "How much does it cost?" },
         { label: "Service area", kind: "ask", value: "What areas do you serve?" },
@@ -55,7 +55,7 @@ export const INTENTS: Intent[] = [
   },
   {
     id: "essential",
-    patterns: /essential|basic|45\b|\$45/i,
+    patterns: /essential|basic|59\b|\$59/i,
     reply: {
       text: `The Essential is our everyday clean: ${tierLine(
         "essential"
@@ -67,11 +67,11 @@ export const INTENTS: Intent[] = [
     },
   },
   {
-    id: "deluxe",
-    patterns: /deluxe|standard|55\b|\$55|popular/i,
+    id: "standard",
+    patterns: /deluxe|standard|79\b|\$79|popular/i,
     reply: {
-      text: `The Deluxe is our most popular clean: ${tierLine(
-        "deluxe"
+      text: `The Standard is our most popular clean: ${tierLine(
+        "standard"
       )}. It's everything in The Essential plus deep caster cleaning (hair/fur/dirt removal) and full frame, footplate and tire detailing.`,
       actions: [
         { label: "Compare all tiers", kind: "ask", value: "What are your cleaning tiers?" },
@@ -81,7 +81,7 @@ export const INTENTS: Intent[] = [
   },
   {
     id: "heavy-duty",
-    patterns: /heavy[\s-]?duty|75\b|\$75|grime|really dirty|heavily soiled/i,
+    patterns: /heavy[\s-]?duty|109\b|\$109|grime|really dirty|heavily soiled/i,
     reply: {
       text: `The Heavy Duty is ${tierLine(
         "heavy-duty"
@@ -96,7 +96,7 @@ export const INTENTS: Intent[] = [
     id: "oil",
     patterns: /oil|lubricat|lube|smooth roll|hinges?|bearings?/i,
     reply: {
-      text: `Our Oil Treatment is +$${ADDONS[0].price} on any tier. We apply all-natural, skin-safe lubricating oil to hinges, pivot points and caster bearings — your chair will roll noticeably smoother.`,
+      text: `Our Oil Treatment is +$${ADDONS[0].price} on any tier. We apply all-natural, skin-safe lubricating oil to hinges, pivot points and caster bearings for added lubrication — your chair will roll noticeably smoother.`,
       actions: [
         { label: "Cushion cleaning", kind: "ask", value: "What about my cushion?" },
         SCHEDULE_ACTION,
@@ -118,7 +118,7 @@ export const INTENTS: Intent[] = [
     id: "addons",
     patterns: /add-?ons?|extras?/i,
     reply: {
-      text: `We have two add-ons you can stack onto any tier:\n\n• Oil Treatment +$${ADDONS[0].price} — skin-safe oil for hinges, pivots and caster bearings.\n• Cushion Cleaning +$${ADDONS[1].price} — full vacuum, wipe-down, steam & sanitize (you'll step out of the chair briefly).`,
+      text: `We offer add-ons you can stack onto any tier:\n\n• Oil Treatment +$${ADDONS[0].price} — skin-safe oil for hinges, pivots and caster bearings.\n• Cushion Cleaning +$${ADDONS[1].price} — full vacuum, wipe-down, steam & sanitize (you'll need to be out of the chair briefly).`,
       actions: [
         { label: "See pricing", kind: "ask", value: "How much does it cost?" },
         SCHEDULE_ACTION,
@@ -142,7 +142,7 @@ export const INTENTS: Intent[] = [
         return `• ${t.name} — $${t.price}${old} · ${t.duration}`;
       }).join("\n")}\n\nPlus add-ons: Oil Treatment +$5 and Cushion Cleaning +$25. Want me to start your booking?`,
       actions: [
-        { label: "Tell me about the Deluxe", kind: "ask", value: "What's in the Deluxe clean?" },
+        { label: "Tell me about the Standard", kind: "ask", value: "What's in the Standard clean?" },
         SCHEDULE_ACTION,
       ],
     },
@@ -151,7 +151,7 @@ export const INTENTS: Intent[] = [
     id: "duration",
     patterns: /how long|duration|time|minutes|mins?|how fast|quick/i,
     reply: {
-      text: "It depends on your tier: The Essential runs about 30 minutes, The Deluxe about 45, and The Heavy Duty about 60. We arrive fully equipped, so you can relax the whole time.",
+      text: "It depends on your tier: The Essential runs about 30 minutes, The Standard about 45, and The Heavy Duty about 60. We arrive fully equipped, so you can relax the whole time.",
       actions: [
         { label: "See pricing", kind: "ask", value: "How much does it cost?" },
         SCHEDULE_ACTION,
@@ -214,7 +214,7 @@ export const INTENTS: Intent[] = [
     id: "payment",
     patterns: /pay|payment|cash|card|credit|invoice|insurance|reimburs/i,
     reply: {
-      text: "Payment details are confirmed at scheduling. For the fastest answer, call or text us at (214) 702-8369 — or send a service request and we'll walk you through it.",
+      text: "Payment details are confirmed at scheduling. We accept cash, Venmo, Credit/Debit, ACH Bank Transfers, Apple Pay, and more. For the fastest answer, call or text us at (214) 702-8369 — or send a service request and we'll help you through it.",
       actions: [CALL_ACTION, SCHEDULE_ACTION],
     },
   },
