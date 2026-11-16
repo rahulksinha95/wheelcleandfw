@@ -14,8 +14,8 @@ export default function Logo({
         src="https://i.postimg.cc/gk83S6Yw/IMG-1536.jpg"
         alt="WheelCleanDFW"
         width={compact ? 60 : 200}
-        height="auto"
-        className="object-contain"
+        height={compact ? 60 : 48}
+				className="object-contain h-auto"
       />
       <span
         className={`font-display font-bold tracking-tight ${
