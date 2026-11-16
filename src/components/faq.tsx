@@ -13,7 +13,7 @@ export default function Faq() {
       <div className="mx-auto max-w-3xl px-5 sm:px-8">
         <SectionHeading
           eyebrow="FAQ"
-          title="Good questions, straight answers"
+          title="Frequently Asked Questions"
         />
 
         <div className="mt-12 flex flex-col gap-3">
