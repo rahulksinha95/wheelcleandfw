@@ -13,12 +13,12 @@ export default function Home() {
     <>
       <Hero />
       <TrustStrip />
-      <Services />
       <HowItWorks />
       <Pricing />
       <Addons />
       <Testimonials />
       <Faq />
+      <Services />
       <Cta />
     </>
   );
