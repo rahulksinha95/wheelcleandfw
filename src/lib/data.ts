@@ -37,7 +37,7 @@ export const TIERS: Tier[] = [
   {
     id: "essential",
     name: "The Essential",
-    price: 45,
+    price: 59,
     duration: "~30 min",
     blurb: "The perfect everyday clean to keep your chair fresh and rolling smooth.",
     features: [
@@ -49,15 +49,15 @@ export const TIERS: Tier[] = [
   },
   {
     id: "deluxe",
-    name: "The Deluxe",
-    price: 55,
-    oldPrice: 65,
+    name: "The Standard",
+    price: 69,
+    oldPrice: 79,
     duration: "~45 min",
-    blurb: "Our most-requested clean — the Essential, plus a full detail finish.",
+    blurb: "Our most-requested clean — for that 'brand new chair' look & feel.",
     features: [
       "Everything in The Essential",
-      "Deep caster cleaning (hair / fur / dirt removal)",
-      "Full frame, footplate & tire detailing",
+      "Full frame, tire, & footplate detailing",
+      "Deep caster cleaning (hair/fur /dirt removal)",
       "Thorough sanitization",
     ],
     popular: true,
@@ -65,10 +65,10 @@ export const TIERS: Tier[] = [
   {
     id: "heavy-duty",
     name: "The Heavy Duty",
-    price: 75,
+    price: 109,
     duration: "~60 min",
     blurb:
-      "For chairs with significant dirt, dust, grime or other substances. Everything in The Deluxe, plus an extra deep-clean pass.",
+      "For chairs with significant dirt, dust, grime or other substances. Everything in The Standard, plus an extra deep-clean pass.",
     features: [
       "Everything in The Deluxe",
       "Extra deep-clean pass over the full frame",
@@ -92,14 +92,21 @@ export const ADDONS: AddOn[] = [
     name: "Oil Treatment",
     price: 5,
     description:
-      "All-natural, skin-safe lubricating oil applied to hinges, pivot points and caster bearings for a noticeably smoother roll.",
+      "All-natural, skin-safe oil applied to hinges, pivot points and caster bearings for a noticeably smoother roll. Oil also applied to plastic, metal, or carbon-fiber surfaces for added shine and protection.",
   },
   {
     id: "cushion-cleaning",
     name: "Cushion Cleaning",
     price: 25,
-    description: "Full cushion vacuum, wipe-down, steam and sanitize.",
+    description: "Full cushion vacuum, wipe-down, steam-clean and sanitize.",
     note: "Requires client to be out of chair.",
+  },
+	{
+		id: "scent-profile",
+    name: "Scent Profiles",
+    price: 15,
+    description: "Choose from available scent profiles to give your chair or device a fresh upgrade .",
+    note: "Check for available scent profiles",
   },
 ];
 
@@ -139,29 +146,29 @@ export const DEVICES = [
 export const STEPS = [
   {
     number: "1",
-    title: "Choose a cleaning tier",
+    title: "Choose Your Cleaning Tier",
     description:
-      "Pick a base cleaning for your wheelchair or mobility device — The Essential, The Deluxe or The Heavy Duty.",
+      "Select a base cleaning for your wheelchair or mobility device — The Essential, The Standard or The Heavy Duty.",
   },
   {
     number: "2",
-    title: "Add your extras",
+    title: "Choose Your Add-Ons",
     description:
-      "Smooth it out with our oil treatment, refresh your cushion, or request a custom service for whatever else your chair needs.",
+      "Smooth it out with an oil treatment, refresh your upholstery, or request a custom service for whatever else your chair needs.",
   },
   {
     number: "3",
-    title: "Sit back & roll",
+    title: "Schedule & Get WheelClean",
     description:
-      "We come to you, fully equipped. You're never required to transfer out of your chair for any base tier cleaning.",
+      "A technician will come to you at your scheduled time and location. We take ~30-60 minutes to get your chair or device looking and feeling fresh again.",
   },
 ];
 
 export const TESTIMONIALS = [
   {
-    name: "Marcus T.",
+    name: "Justin R",
     location: "Fort Worth",
-    text: "Wheel Clean DFW made my power chair look brand new in 45 minutes right in my driveway. Smooth roll and total peace of mind!",
+    text: "Wheel Clean DFW made my power chair look brand new right in my driveway. Easy process and total peace of mind!",
     rating: 5,
   },
   {
@@ -182,17 +189,17 @@ export const FAQS = [
   {
     question: "Do I have to get out of my wheelchair?",
     answer:
-      "No — you're never required to transfer out of your wheelchair for any base tier cleaning. The only exception is the optional cushion cleaning, which needs you out of the chair briefly.",
+      "No — you're not required to transfer out of your wheelchair for any base tier cleaning. The only exception is the optional cushion cleaning, which needs you out of the chair briefly.",
   },
   {
     question: "What products do you use?",
     answer:
-      "We use skin-safe, eco-friendly materials for all of our cleanings — safe for you and safe for your equipment.",
+      "We use skin-safe, mon-toxic, eco-friendly materials for all of our cleanings — safe for you, safe for kids and pets, and safe for your equipment.",
   },
   {
     question: "How long does a cleaning take?",
     answer:
-      "It depends on the tier: The Essential runs about 30 minutes, The Deluxe about 45, and The Heavy Duty about 60.",
+      "It depends on the tier: The Essential runs about 30 minutes, The Standard about 45, and The Heavy Duty about 60. Add-ons may increase service time.",
   },
   {
     question: "What areas do you serve?",
