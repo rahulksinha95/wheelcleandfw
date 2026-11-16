@@ -16,7 +16,7 @@ export default function HowItWorks() {
         <SectionHeading
           dark
           eyebrow="How It Works"
-          title="Fresh in three easy steps"
+          title="Get WheelClean in 3 easy steps"
           subtitle="No transfers, no hassle, no trip across town. We come to you."
         />
 
