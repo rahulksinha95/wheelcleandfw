@@ -2,11 +2,10 @@ import { SparkIcon } from "@/components/icons";
 
 const ITEMS = [
   "Skin-safe, eco-friendly products",
-  "You stay in your chair",
+  "No transfers required",
   "Serving the DFW Metroplex",
   "30–60 minute on-site service",
-  "Manual & power wheelchairs",
-  "Scooters · Sports chairs · Walkers",
+  "Power Wheelchairs · Manual Wheelchairs · Pediatric Wheelchairs · Sports Wheelchairs · Handcycles · Walkers · Rollators · Scooters · Canes · Crutches and more",
 ];
 
 export default function TrustStrip() {
