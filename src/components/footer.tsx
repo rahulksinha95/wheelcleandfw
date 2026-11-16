@@ -13,9 +13,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <Logo dark />
             <p className="mt-6 max-w-sm text-base leading-relaxed text-slate-400">
-              Mobile wheelchair &amp; mobility equipment cleaning across the
-              Dallas / Fort Worth metroplex. Skin-safe, eco-friendly, and done
-              around your schedule.
+              Mobile wheelchair &amp; mobility equipment cleaning in DFW.
             </p>
             <div className="mt-8 flex gap-4">
               <a
@@ -66,7 +64,7 @@ export default function Footer() {
               Service Area
             </h3>
             <ul className="mt-6 flex flex-col gap-3">
-              {["Dallas", "Fort Worth", "Plano", "Irving", "Richardson", "Garland"].map(
+              {["Dallas", "Plano", "Irving", "Richardson", "Garland"].map(
                 (city) => (
                   <li key={city}>
                     <span className="text-sm font-medium text-slate-400">
@@ -85,7 +83,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">
           <p className="text-sm text-slate-500">
-            © <Year /> WheelClean DFW. All rights reserved.
+            © <Year /> UnBound Adaptive LLC d/b/a Wheel Clean DFW. All rights reserved.
           </p>
           <p className="text-sm font-medium text-slate-400">
             Look fresher, roll smoother.
