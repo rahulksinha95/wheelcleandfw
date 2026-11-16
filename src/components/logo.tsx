@@ -12,7 +12,7 @@ export default function Logo({
     <Link href="/" className="flex items-center gap-3">
       <Image
         src="https://assets.zyrosite.com/2J82Qbf4wzjoIRnb/uyg6x5-gg9OA6LmQGBoP2f8.png"
-        alt="WheelClean DFW"
+        alt="WheelCleanDFW"
         width={compact ? 32 : 48}
         height={compact ? 32 : 48}
         className="object-contain"
