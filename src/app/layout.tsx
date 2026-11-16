@@ -20,16 +20,19 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   title: {
     default:
-      "WheelClean DFW — Mobile Wheelchair Cleaning in Dallas / Fort Worth",
-    template: "%s — WheelClean DFW",
+      "WheelCleanDFW — Mobile Wheelchair Cleaning in Dallas/Fort Worth",
+    template: "%s — WheelCleanDFW",
   },
   description:
-    "Mobile wheelchair & mobility equipment cleaning that comes to you across the Dallas / Fort Worth metroplex. Manual & power wheelchairs, scooters, sports chairs, walkers and canes. Skin-safe products — you never have to leave your chair. From $45.",
+    "Mobile wheelchair & mobility equipment cleaning that comes to you across the Dallas/Fort Worth metroplex. Manual & power wheelchairs, scooters, sports chairs, walkers, canes, and more. We only use non-toxic, skin-safe products — Premium service at affordable prices. From $59.",
   keywords: [
     "wheelchair cleaning dallas",
     "wheelchair cleaning fort worth",
     "mobile wheelchair cleaning",
     "power wheelchair cleaning",
+		"manual wheelchair cleaning",
+		"disability cleaning dallas",
+		"wheelchair cleaners dallas",
     "mobility scooter cleaning",
     "DFW",
   ],
@@ -39,9 +42,9 @@ export const metadata: Metadata = {
     apple: "/favicon.svg",
   },
   openGraph: {
-    title: "WheelClean DFW — Mobile Wheelchair Cleaning",
+    title: "WheelCleanDFW — Mobile Wheelchair Cleaning",
     description:
-      "Look fresher, roll smoother. On-site wheelchair & mobility equipment cleaning across Dallas / Fort Worth. From $45.",
+      "Look fresher, roll smoother. On-site wheelchair & mobility equipment cleaning across Dallas/Fort Worth. From $59.",
     type: "website",
     locale: "en_US",
   },
@@ -50,9 +53,9 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "WheelClean DFW",
+  name: "WheelCleanDFW",
   description:
-    "Mobile wheelchair and mobility equipment cleaning service serving the Dallas / Fort Worth metroplex.",
+    "Mobile wheelchair and mobility equipment cleaning service serving the Dallas/Fort Worth metroplex.",
   url: "https://wheelcleandfw.com",
   telephone: "+1-214-702-8369",
   email: "wheelcleandfw@gmail.com",
@@ -62,19 +65,19 @@ const jsonLd = {
     {
       "@type": "Offer",
       name: "The Essential",
-      price: "45",
+      price: "59",
       priceCurrency: "USD",
     },
     {
       "@type": "Offer",
-      name: "The Deluxe",
-      price: "55",
+      name: "The Standard",
+      price: "79",
       priceCurrency: "USD",
     },
     {
       "@type": "Offer",
       name: "The Heavy Duty",
-      price: "75",
+      price: "109",
       priceCurrency: "USD",
     },
   ],
