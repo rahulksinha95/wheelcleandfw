@@ -190,7 +190,7 @@ export default function Chatbot() {
               </span>
               <div className="relative">
                 <p className="font-display text-sm font-bold text-white">
-                  WheelClean Assistant
+                  WheelClean Wally
                 </p>
                 <p className="text-xs font-medium text-emerald-300">
                   Online · replies instantly
