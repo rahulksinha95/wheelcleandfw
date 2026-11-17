@@ -85,7 +85,7 @@ export default function AboutContent() {
                 Founded by a wheelchair user, for wheelchair users
               </h2>
               <p className="mt-6 text-base leading-relaxed text-slate-600">
-                WheelCleanDFW was started by two friends: Rahul, a daily wheelchair user, and Mitch, a homecare attendant for people with disabilities.<br>
+                WheelCleanDFW was started by two friends: Rahul, a daily wheelchair user, and Mitch, a homecare attendant for people with disabilities.<br />
                 Knowing firsthand the importance of regular wheelchair cleaning—and the confidence that comes with rolling fresh—Rahul decided to bring convenient, affordable wheelchair & mobility device cleaning to DFW.
               </p>
               <p className="mt-4 text-base leading-relaxed text-slate-600">
