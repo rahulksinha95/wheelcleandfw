@@ -62,8 +62,7 @@ export default function AboutContent() {
             transition={{ duration: 0.6, delay: 0.16 }}
             className="mt-5 max-w-xl text-lg text-slate-300"
           >
-            We bring a full sanitizing wheelchair clean right to your doorstep — wash & detailing, skin-safe
-            materials, frame & upholstery treatment, and you never have to leave your chair.
+            We bring a full sanitizing wheelchair clean right to your doorstep — Wash & Detailing, Frame & Upholstery Treatment, Skin-Safe & Eco-Friendly Products - and you never have to leave your chair.
           </motion.p>
         </div>
       </section>
@@ -162,7 +161,7 @@ export default function AboutContent() {
             </div>
 
             {/* Cities list */}
-            <div className="grid grid-cols-2 gap-3 content-start">
+            <div className="grid grid-cols-2 gap-1 content-start">
               {SERVICE_CITIES.map((city, i) => {
                 const isActive = selectedCity === CITY_COORDS[city];
                 return (
