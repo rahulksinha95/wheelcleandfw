@@ -62,8 +62,8 @@ export default function AboutContent() {
             transition={{ duration: 0.6, delay: 0.16 }}
             className="mt-5 max-w-xl text-lg text-slate-300"
           >
-            We bring a deep, sanitizing clean straight to your door — skin-safe
-            products, and you never have to leave your chair.
+            We bring a full sanitizing wheelchair clean right to your doorstep — wash & detailing, skin-safe
+            materials, frame & upholstery treatment, and you never have to leave your chair.
           </motion.p>
         </div>
       </section>
@@ -82,25 +82,19 @@ export default function AboutContent() {
                 Our Story
               </p>
               <h2 className="mt-3 font-display text-3xl font-bold text-ink sm:text-4xl">
-                Built by wheelchair users, for wheelchair users
+                Founded by a wheelchair user, for wheelchair users
               </h2>
               <p className="mt-6 text-base leading-relaxed text-slate-600">
-                Wheel Clean DFW was started by two friends: Rahul, a C6
-                quadriplegic wheelchair user, and Mitch, his care attendant.
-                Knowing firsthand how vital regular cleaning is—and how great it
-                feels to roll fresher and smoother—Rahul noticed a clear need in
-                Dallas for a mobile wheelchair cleaning service.
+                WheelCleanDFW was started by two friends: Rahul, a daily wheelchair user, and Mitch, a homecare attendant for people with disabilities.<br>
+                Knowing firsthand the importance of regular wheelchair cleaning—and the confidence that comes with rolling fresh—Rahul decided to bring convenient, affordable wheelchair & mobility device cleaning to DFW.
               </p>
               <p className="mt-4 text-base leading-relaxed text-slate-600">
-                Together, they decided to take action and bring a dedicated,
-                fully mobile wheelchair detailing service on the road for the
-                entire Dallas–Fort Worth community.
+                Together with Mitch, they started WheelCleanDFW-
+                a fully mobile wheelchair/mobility device cleaning & detailing service for the Dallas–Fort Worth community.
               </p>
               <p className="mt-4 text-base leading-relaxed text-slate-600">
-                We use skin-safe, eco-friendly products. You never have to
-                transfer out of your chair for any base tier cleaning. And we
-                serve the entire Dallas / Fort Worth metroplex — from Plano to
-                Mesquite, Irving to Rockwall.
+                We provide service for all types of wheelchairs, walkers, rollators, strollers, canes and more!
+								We strive to deliver premium cleanings at affordable prices, because we believe that everyone should have access to a convenient cleaning on their wheelchair or mobility device. 
               </p>
             </motion.div>
 
@@ -137,7 +131,7 @@ export default function AboutContent() {
               Service Area
             </p>
             <h2 className="mt-3 font-display text-3xl font-bold text-ink sm:text-4xl">
-              Serving the entire DFW metroplex
+              Serving the DFW metroplex. Our service area is currently limited to the cities listed below. Any request outside of the service area will require a $25 travel fee at the time of payment.
             </h2>
             <p className="mt-5 text-base leading-relaxed text-slate-600">
               We're fully mobile and come to you. Here are some of the cities we
