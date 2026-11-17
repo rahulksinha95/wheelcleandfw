@@ -199,7 +199,7 @@ export default function AboutContent() {
               })}
             </div>
 						<p className="mt-5 text-base leading-relaxed text-slate-600">
-              We're fully mobile and come to you. Here are some of the cities we serve:
+              Don't see your city? We currently require a $25 travel fee for all bookings outside of our service area to accommodate gas and travel time.
             </p>
           </motion.div>
         </div>
