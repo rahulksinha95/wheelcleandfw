@@ -42,7 +42,8 @@ export const TIERS: Tier[] = [
     blurb: "The perfect everyday clean to keep your chair fresh and rolling smooth.",
     features: [
       "Complete frame wash, wipe & dry",
-      "Tires & casters wash and dry",
+      "Tires/casters wash & dry",
+			"Footplate wash & dry",
       "Wheel hub & spokes clean",
       "Thorough sanitization",
     ],
@@ -50,7 +51,7 @@ export const TIERS: Tier[] = [
   {
     id: "standard",
     name: "The Standard",
-    price: 69,
+    price: 75,
     oldPrice: 79,
     duration: "~45 min",
     blurb: "Our most-requested clean — for that 'brand new chair' look & feel.",
@@ -105,8 +106,8 @@ export const ADDONS: AddOn[] = [
 		id: "scent-profile",
     name: "Scent Profiles",
     price: 15,
-    description: "Choose from available scent profiles to give your chair or device a fresh upgrade .",
-    note: "Check for available scent profiles",
+    description: "Choose from available scent profiles to give your chair or device a fresh scent upgrade.",
+    note: "Check for availability of scent profiles",
   },
 ];
 
@@ -204,7 +205,7 @@ export const FAQS = [
   {
     question: "What areas do you serve?",
     answer:
-      `We're fully mobile and serve the entire ${CONTACT.area}. Specific cities include ${SERVICE_CITIES.slice(0, 7).join(", ")}, and more. Just give us your service location when you schedule.`,
+      `We're fully mobile and serve the ${CONTACT.area}. Our service area includes ${SERVICE_CITIES.slice(0, 14).join(", ")}, and more. A $25 travel fee is required for all bookings outside of the service area. Just give us your service location when you schedule.`,
   },
   {
     question: "What if I need a specific service?",
