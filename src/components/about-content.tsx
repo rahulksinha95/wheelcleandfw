@@ -62,7 +62,7 @@ export default function AboutContent() {
             transition={{ duration: 0.6, delay: 0.16 }}
             className="mt-5 max-w-xl text-lg text-slate-300"
           >
-            We bring a full sanitizing wheelchair clean right to your doorstep — Wash & Detailing, Frame & Upholstery Treatment, Skin-Safe & Eco-Friendly Products - and you never have to leave your chair.
+            We bring a full sanitizing wheelchair clean right to your doorstep — Wash & Detailing, Frame & Upholstery Treatment, Skin-Safe & Eco-Friendly Products — and you never have to leave your chair.
           </motion.p>
         </div>
       </section>
@@ -130,11 +130,10 @@ export default function AboutContent() {
               Service Area
             </p>
             <h2 className="mt-3 font-display text-3xl font-bold text-ink sm:text-4xl">
-              Serving the DFW metroplex. Our service area is currently limited to the cities listed below. Any request outside of the service area will require a $25 travel fee at the time of payment.
+              Serving cities in the DFW metroplex. 
             </h2>
             <p className="mt-5 text-base leading-relaxed text-slate-600">
-              We're fully mobile and come to you. Here are some of the cities we
-              serve:
+              We're fully mobile and come to you. Here are some of the cities we serve:
             </p>
           </motion.div>
 
@@ -161,7 +160,7 @@ export default function AboutContent() {
             </div>
 
             {/* Cities list */}
-            <div className="grid grid-cols-2 gap-1 content-start">
+            <div className="grid grid-cols-2 gap-3 content-start">
               {SERVICE_CITIES.map((city, i) => {
                 const isActive = selectedCity === CITY_COORDS[city];
                 return (
@@ -199,6 +198,9 @@ export default function AboutContent() {
                 );
               })}
             </div>
+						<p className="mt-5 text-base leading-relaxed text-slate-600">
+              We're fully mobile and come to you. Here are some of the cities we serve:
+            </p>
           </motion.div>
         </div>
       </section>
