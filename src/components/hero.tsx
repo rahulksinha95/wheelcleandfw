@@ -57,7 +57,7 @@ export default function Hero() {
               transition={{ delay: 0.2 }}
               className="mb-6 text-sm font-bold uppercase tracking-[0.2em] text-accent"
             >
-              Mobile Service · Dallas / Fort Worth
+              Mobile Wheelchair Cleaners · Dallas / Fort Worth
             </motion.p>
 
             <motion.h1
@@ -70,7 +70,9 @@ export default function Hero() {
               <br />
               <span className="text-accent">Fresher.</span>
               <br />
-              Roll Smoother.
+              Roll
+							<br />
+              <span className="text-accent">Smoother.</span>
             </motion.h1>
 
             <motion.p
@@ -79,9 +81,9 @@ export default function Hero() {
               transition={{ delay: 0.3 }}
               className="mt-8 max-w-lg text-lg leading-relaxed text-slate-600"
             >
-              Professional wheelchair cleaning that comes to you. Skin-safe
-              products, thorough sanitization, and you never have to leave your
-              chair.
+              Premium wheelchair & mobility device cleaning that comes to YOU.
+							<br />
+							Our proven cleaning process, skin-safe/non-toxic products, and thorough detailing will leave you feeling FRESHER and rolling SMOOTHER to your next adventure.
             </motion.p>
 
             <motion.div
