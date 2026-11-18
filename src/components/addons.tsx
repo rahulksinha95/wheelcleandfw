@@ -12,9 +12,9 @@ export default function Addons() {
     <section className="pb-24 sm:pb-28">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <SectionHeading
-          eyebrow="Add-Ons"
-          title="Level up your clean"
-          subtitle="Small extras, big difference. Stack these onto any tier."
+          eyebrow="2"
+          title="Add-Ons"
+          subtitle="Level up your clean. Small upgrades, big difference. Stacked onto any tier."
         />
 
         <div className="mt-14 grid gap-6 md:grid-cols-2">
