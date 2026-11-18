@@ -149,19 +149,21 @@ export const STEPS = [
     number: "1",
     title: "Choose Your Cleaning Tier",
     description:
-      "Select a base cleaning for your wheelchair or mobility device — The Essential, The Standard or The Heavy Duty.",
+      "Select a base tier for your cleaning:"
+			<br />
+			"The Essential  |  The Standard  |  The Heavy",
   },
   {
     number: "2",
     title: "Choose Your Add-Ons",
     description:
-      "Smooth it out with an oil treatment, refresh your upholstery, or request a custom service for whatever else your chair needs.",
+      "Smooth it out with an oil treatment, refresh your upholstery, or request a custom service for whatever else your device needs.",
   },
   {
     number: "3",
-    title: "Schedule & Get WheelClean",
+    title: "Schedule",
     description:
-      "A technician will come to you at your scheduled time and location. We take ~30-60 minutes to get your chair or device looking and feeling fresh again.",
+      "After booking, a technician will arrive promptly to your scheduled time and location. We take ~30-60 minutes to get your chair or device looking and feeling fresh again.",
   },
 ];
 
