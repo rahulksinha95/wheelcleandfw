@@ -37,15 +37,15 @@ const CALL_ACTION: ChatAction = {
 
 /**
  * Full chatbot dataset — every intent the assistant can handle,
- * built from the complete WheelClean DFW service catalog.
+ * built from the complete WheelCleanDFW service catalog.
  */
 export const INTENTS: Intent[] = [
   {
     id: "greeting",
     patterns:
-      /^(hi|hiya|hello|hey|yo|howdy|good (morning|afternoon|evening)|sup|hola)\b/i,
+      /^(hi|hiya|hello|hey|yo|howdy|good (morning|afternoon|evening)|sup|hola|namaste|yoo|hey there)\b/i,
     reply: {
-      text: "Howdy! 👋 I'm the WheelCleanDFW assistant. I can help with pricing, service areas, how the cleaning works, or booking your appointment. What can I do for you?",
+      text: "Howdy! 👋 I'm WheelClean Wally!. I can help with pricing, service areas, our cleaning services, or booking your appointment. How can I help?",
       actions: [
         { label: "See pricing", kind: "ask", value: "How much does it cost?" },
         { label: "Service area", kind: "ask", value: "What areas do you serve?" },
@@ -59,7 +59,9 @@ export const INTENTS: Intent[] = [
     reply: {
       text: `The Essential is our everyday clean: ${tierLine(
         "essential"
-      )}. It includes a complete frame wash, wipe & dry, tires & casters wash and dry, wheel hub & spokes clean, and thorough sanitization. Perfect for regular upkeep.`,
+      )}. It includes a complete towel wash & dry of the wheelchair's frame, tires, casters, and footplate. 
+					We dry thoroughly and follow with a complete sanitization (including the push rims, push handles, armrests, spokes, and headrests) using a non-toxic, skin-safe sanitizing wipe.
+					The Essential is a great choice for regular upkeep.`,
       actions: [
         { label: "Compare all tiers", kind: "ask", value: "What are your cleaning tiers?" },
         SCHEDULE_ACTION,
@@ -72,7 +74,7 @@ export const INTENTS: Intent[] = [
     reply: {
       text: `The Standard is our most popular clean: ${tierLine(
         "standard"
-      )}. It's everything in The Essential plus deep caster cleaning (hair/fur/dirt removal) and full frame, footplate and tire detailing.`,
+      )}. It's everything in The Essential plus a full detail cleaning. We use compressed air and detailing tools to remove embedded debris, provide a deep caster cleaning (hair/fur/dirt removal) and get those tire treads fresh so you can roll smooth again.`,
       actions: [
         { label: "Compare all tiers", kind: "ask", value: "What are your cleaning tiers?" },
         SCHEDULE_ACTION,
