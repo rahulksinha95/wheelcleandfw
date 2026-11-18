@@ -11,7 +11,7 @@ export default function Pricing() {
     <section id="pricing" className="scroll-mt-20 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <SectionHeading
-          eyebrow="Pricing"
+          eyebrow="1"
           title="Choose your cleaning tier"
           subtitle="Straightforward, flat pricing — pick a base cleaning for your wheelchair or mobility device."
         />
