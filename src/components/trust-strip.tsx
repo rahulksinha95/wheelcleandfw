@@ -5,7 +5,16 @@ const ITEMS = [
   "No transfers required",
   "Serving the DFW Metroplex",
   "30–60 minute on-site service",
-  "Power Wheelchairs · Manual Wheelchairs · Pediatric Wheelchairs · Sports Wheelchairs · Handcycles · Walkers · Rollators · Scooters · Canes · Crutches and more",
+  "Power Wheelchairs",
+	"Manual Wheelchairs",
+	"Pediatric Wheelchairs",
+	"Sports Wheelchairs",
+	"Handcycles",
+	"Walkers",
+	"Rollators",
+	"Scooters",
+	"Canes",
+	"Crutches and more!",
 ];
 
 export default function TrustStrip() {
