@@ -16,8 +16,7 @@ export default function HowItWorks() {
         <SectionHeading
           dark
           eyebrow="How It Works"
-          title="Get WheelClean in 3 easy steps"
-          subtitle="No transfers, no hassle, no trip across town. We come to you."
+          title="Get WheelClean in 3 Easy Steps"
         />
 
         <div className="relative mt-16 grid gap-6 md:grid-cols-3">
