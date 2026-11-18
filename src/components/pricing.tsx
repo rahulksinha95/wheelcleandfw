@@ -145,11 +145,11 @@ export default function Pricing() {
         >
           <span className="flex items-center gap-2">
             <CheckIcon className="h-4 w-4 text-accent" />
-            We use skin-safe, eco-friendly materials for all cleanings
+            All tiers includes a full clinic-grade surface disinfection using non-toxic wipes, safe around kids, pets, and sensitive skin.
           </span>
           <span className="flex items-center gap-2">
             <CheckIcon className="h-4 w-4 text-accent" />
-            No need to transfer out of your chair for base tiers
+            No transfers required for any base tier cleaning.
           </span>
         </motion.div>
       </div>
