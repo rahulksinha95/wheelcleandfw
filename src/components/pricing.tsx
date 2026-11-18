@@ -11,7 +11,7 @@ export default function Pricing() {
     <section id="pricing" className="scroll-mt-20 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <SectionHeading
-          eyebrow="1"
+          eyebrow="Menu"
           title="Choose your cleaning tier"
           subtitle="Straightforward, flat pricing — pick a base cleaning for your wheelchair or mobility device."
         />
@@ -145,11 +145,11 @@ export default function Pricing() {
         >
           <span className="flex items-center gap-2">
             <CheckIcon className="h-4 w-4 text-accent" />
-            All tiers includes a full clinic-grade surface disinfection using non-toxic wipes, safe around kids, pets, and sensitive skin.
+            All tiers include a full, clinic-grade surface disinfection.
           </span>
           <span className="flex items-center gap-2">
             <CheckIcon className="h-4 w-4 text-accent" />
-            No transfers required for any base tier cleaning.
+            No transfers necessary for any base tier cleaning.
           </span>
         </motion.div>
       </div>
