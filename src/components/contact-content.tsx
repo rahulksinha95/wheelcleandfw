@@ -47,7 +47,7 @@ export default function ContactContent() {
           >
             Have a question?{" "}
             <span className="bg-gradient-to-r from-accent-bright to-amber-200 bg-clip-text text-transparent">
-              We're here to help.
+              Reach us
             </span>
           </motion.h1>
           <motion.p
@@ -255,7 +255,7 @@ export default function ContactContent() {
                   animate={{ opacity: 1, height: "auto" }}
                   className="mt-5 overflow-hidden rounded-2xl bg-emerald-50 px-5 py-4 text-sm font-semibold text-emerald-700"
                 >
-                  Your message is ready — we've opened your email to send it.
+                  Your response is ready to send via your email client.
                   We'll get back to you shortly!
                 </motion.p>
               )}
