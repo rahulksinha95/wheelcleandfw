@@ -149,8 +149,7 @@ export const STEPS = [
     number: "1",
     title: "Choose Your Cleaning Tier",
     description:
-      "Select a base tier for your cleaning:
-			<br />
+      "Select a base tier for your cleaning
 			The Essential  |  The Standard  |  The Heavy",
   },
   {
