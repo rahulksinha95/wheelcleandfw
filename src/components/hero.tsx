@@ -57,7 +57,7 @@ export default function Hero() {
               transition={{ delay: 0.2 }}
               className="mb-6 text-sm font-bold uppercase tracking-[0.2em] text-accent"
             >
-              Mobile Wheelchair Cleaners · Dallas / Fort Worth
+              Mobile Wheelchair Cleaners · Dallas/Fort Worth
             </motion.p>
 
             <motion.h1
@@ -81,9 +81,9 @@ export default function Hero() {
               transition={{ delay: 0.3 }}
               className="mt-8 max-w-lg text-lg leading-relaxed text-slate-600"
             >
-              Premium wheelchair & mobility device cleaning that comes to YOU.
+              At-Your-Door wheelchair & mobility device cleaning
 							<br />
-							Our proven cleaning process, skin-safe/non-toxic products, and thorough detailing will leave you feeling FRESHER and rolling SMOOTHER to your next adventure.
+							Our proven process, skin-safe products, and thorough detailing will have your device ready for new adventures!
             </motion.p>
 
             <motion.div
