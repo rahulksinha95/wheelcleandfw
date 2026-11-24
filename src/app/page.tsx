@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <Hero />
       <TrustStrip />
-			<bookingwidget />
+			<BookingWidget />
       <HowItWorks />
       <Pricing />
       <Addons />
