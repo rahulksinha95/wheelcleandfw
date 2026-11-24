@@ -33,7 +33,7 @@ export default function BookingWidget() {
             borderRadius: '12px',
             overflow: 'hidden',
             boxShadow: '0 4px 16px rgba(0,0,0,0.08)',
-            background: '#fff',
+            background: '#FAEDDA',
           }}
         >
           <iframe
