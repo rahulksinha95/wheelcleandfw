@@ -65,3 +65,18 @@ body {
 .animate-float {
   animation: float 6s ease-in-out infinite;
 }
+
+/* Contain SimplyBook iframe */
+#sbw_widget iframe,
+.sb-widget-iframe {
+  width: 100% !important;
+  max-height: 750px !important;
+  min-height: 600px !important;
+  border: none !important;
+  display: block !important;
+}
+
+.booking-section {
+  position: relative;
+  z-index: 1;
+}
