@@ -1,0 +1,70 @@
+'use client';
+
+import { useEffect, useRef } from 'react';
+
+export default function BookingWidget() {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    // Prevent double-loading
+    if (document.getElementById('simplybook-widget-script')) return;
+
+    const script = document.createElement('script');
+    script.id = 'simplybook-widget-script';
+    script.src = '//widget.simplybook.me/v2/widget/widget.js';
+    script.async = true;
+
+    script.onload = () => {
+      // @ts-ignore
+      if (typeof SimplybookWidget !== 'undefined' && containerRef.current) {
+        // @ts-ignore
+        new SimplybookWidget({
+          widget_type: 'iframe',
+          url: 'https://wheelcleandfw.simplybook.me',
+          theme: 'air',
+          theme_settings: {
+            timeline_hide_unavailable: '1',
+            hide_past_days: '0',
+            timeline_show_end_time: '0',
+            timeline_modern_display: 'as_slots',
+            sb_base_color: '#8d9eab',
+            display_item_mode: 'block',
+            booking_nav_bg_color: '#8d9eab',
+            body_bg_color: '#ffffff',
+            sb_review_image: '',
+            dark_font_color: '#212528',
+            light_font_color: '#ffffff',
+            btn_color_1: '#b9c4ce',
+            sb_company_label_color: '#2d4354',
+            hide_img_mode: '1',
+            show_sidebar: '1',
+            sb_busy: '#c7b3b3',
+            sb_available: '#ebddde',
+          },
+          timeline: 'modern',
+          datepicker: 'top_calendar',
+          is_rtl: false,
+          app_config: {
+            clear_session: 0,
+            allow_switch_to_ada: 1,
+            predefined: [],
+          },
+        });
+      }
+    };
+
+    document.body.appendChild(script);
+
+    return () => {
+      // Cleanup if needed
+    };
+  }, []);
+
+  return (
+    <div 
+      ref={containerRef} 
+      id="sbw_widget" 
+      style={{ minHeight: '600px', width: '100%' }}
+    />
+  );
+}
