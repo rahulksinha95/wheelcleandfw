@@ -7,12 +7,14 @@ import Addons from "@/components/addons";
 import Testimonials from "@/components/testimonials";
 import Faq from "@/components/faq";
 import Cta from "@/components/cta";
+import BookingWidget from '@/components/booking-widget';
 
 export default function Home() {
   return (
     <>
       <Hero />
       <TrustStrip />
+			<bookingwidget />
       <HowItWorks />
       <Pricing />
       <Addons />
