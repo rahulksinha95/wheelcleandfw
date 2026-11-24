@@ -63,8 +63,8 @@ export default function BookingWidget() {
           id="sbw_widget" 
           style={{ 
             width: '100%', 
-            minHeight: '650px',
-            maxHeight: '800px',
+            minHeight: '200px',
+            maxHeight: '400px',
             overflow: 'auto',
             borderRadius: '12px',
             boxShadow: '0 4px 12px rgba(0,0,0,0.08)'
