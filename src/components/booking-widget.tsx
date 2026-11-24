@@ -1,12 +1,9 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 
 export default function BookingWidget() {
-  const containerRef = useRef<HTMLDivElement>(null);
-
   useEffect(() => {
-    // Prevent double-loading
     if (document.getElementById('simplybook-widget-script')) return;
 
     const script = document.createElement('script');
@@ -16,7 +13,7 @@ export default function BookingWidget() {
 
     script.onload = () => {
       // @ts-ignore
-      if (typeof SimplybookWidget !== 'undefined' && containerRef.current) {
+      if (typeof SimplybookWidget !== 'undefined') {
         // @ts-ignore
         new SimplybookWidget({
           widget_type: 'iframe',
@@ -54,17 +51,26 @@ export default function BookingWidget() {
     };
 
     document.body.appendChild(script);
-
-    return () => {
-      // Cleanup if needed
-    };
   }, []);
 
   return (
-    <div 
-      ref={containerRef} 
-      id="sbw_widget" 
-      style={{ minHeight: '600px', width: '100%' }}
-    />
+    <section className="booking-section" style={{ padding: '4rem 1rem', background: '#f9fafb' }}>
+      <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+        <h2 style={{ textAlign: 'center', marginBottom: '1.5rem', fontSize: '2rem' }}>
+          Schedule Your Cleaning
+        </h2>
+        <div 
+          id="sbw_widget" 
+          style={{ 
+            width: '100%', 
+            minHeight: '650px',
+            maxHeight: '800px',
+            overflow: 'auto',
+            borderRadius: '12px',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.08)'
+          }}
+        />
+      </div>
+    </section>
   );
 }
